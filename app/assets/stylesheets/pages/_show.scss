@@ -1,0 +1,20 @@
+@import "/components/reviews_form";
+
+.content-new-review {
+  padding: 10px;
+  border: solid 1px grey;
+  margin: 10px auto;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}
+
+.reviews-list {
+  padding: 10px;
+  border: solid 1px grey;
+  margin: 10px auto;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}
+
+.image {
+  display: block;
+  margin: 0 auto;
+}

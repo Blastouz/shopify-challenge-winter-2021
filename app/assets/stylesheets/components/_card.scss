@@ -1,0 +1,63 @@
+
+.centered-text {
+  text-align: center;
+}
+
+
+.card-image {
+  object-fit: cover;
+  width: 100%;
+  margin: 10px auto;
+  background-position: center;
+  height: 180px;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  border-radius: 5px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  
+}
+
+.card-rating {
+    width: auto;
+    padding: 0px 4px;
+    position: absolute;
+    text-align: center;
+    top: 20px;
+    left: 24px;
+    border: solid 1px black;
+    border-radius: 4px;
+    font-size: 16px;
+    color: white;
+    background-color: forestgreen;
+    z-index: 3
+}
+
+a:hover  {
+  text-decoration: none;
+   color: white;
+}
+
+.card-remove-link {
+  color: white;
+  border-radius: 50%;
+  border: 1px solid white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30px;
+  width: 30px;
+  position: absolute;
+  top: 20px;
+  right: 24px;
+  opacity: 0.8;
+  transform: rotate(45deg);
+  font-weight: lighter;
+  text-decoration: none;
+  &:hover {
+    color: white;
+    text-decoration: none;
+    opacity: 1;
+  }
+}

@@ -1,0 +1,3 @@
+# test/fixtures/users.yml
+baptiste:
+  email: "baptiste@mail.com"
